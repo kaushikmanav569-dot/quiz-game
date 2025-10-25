@@ -1,4 +1,5 @@
-print("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
+
+ print("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
  ans1 = input("Enter your answer here...")
  print("your answer is ...",ans1)
  print("<....................................>")
@@ -37,5 +38,4 @@ print("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
      print("You have passed the Quiz wih 3 points.. Wish you very best for next time....  ")
  else:
      print("Better Luck next time....")
-
-  
+ 
