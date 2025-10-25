@@ -1,24 +1,24 @@
 
  print("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
- ans1 = input("Enter your answer here...")
+  ans1 = input("Enter your answer here...")
  print("your answer is ...",ans1)
  print("<....................................>")
  print("Q2: Which of these is a mammel..?\nA) Duck\tB) Hen\nC) Owl\tD) Whale")
- ans2 = input("Enter your answer here...")
+  ans2 = input("Enter your answer here...")
  print("your answer is ...",ans2)
  print("<....................................>")
  print("Q3: Which is the largest ocean in the world?\nA) Indian ocean\tB) Pacific ocean\nC) Arctic ocean\tD) Atlantic ocean")
- ans3 = input("Enter your answer here...")
+  ans3 = input("Enter your answer here...")
  print("your answer is ...",ans3)
  print("<....................................>")
  print("Q4: WHich is the National Animal ..?\nA) Fox\tB) Cow\nC) Tiger\tD) Elephant")
- ans4 = input("Enter your answer here...")
+  ans4 = input("Enter your answer here...")
  print("your answer is ...",ans4)
  print("<....................................>")
  print("Q5: How many continents in the world..?\nA) 4\tB) 7\nC) 8\tD) 9")
- ans5 = input("Enter your answer here...")
+  ans5 = input("Enter your answer here...")
  print("your answer is ...",ans5)
- Total = 0
+  Total = 0
  if ans1=="c" or ans1 == "C":
      Total +=1
  if ans2=="d" or ans2 == "D":
