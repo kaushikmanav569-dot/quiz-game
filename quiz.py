@@ -2,7 +2,7 @@
  print("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
  ans1 = input("Enter your answer here...")
  print("your answer is ...",ans1)
-     print("<....................................>")
+ print("<....................................>")
  print("Q2: Which of these is a mammel..?\nA) Duck\tB) Hen\nC) Owl\tD) Whale")
  ans2 = input("Enter your answer here...")
  print("your answer is ...",ans2)
