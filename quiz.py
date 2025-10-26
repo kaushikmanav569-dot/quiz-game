@@ -1,1 +1,2 @@
-write.hello
+import streamlit as st
+st.title("hello manav")
