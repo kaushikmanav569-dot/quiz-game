@@ -10,13 +10,13 @@ if answer1 == "A":
 st.write("Q2. Which of these is a mammal?")
 answer2 = st.selectbox("Choose your answer:", ["Duck", "Hen", "Owl", "Whale"])
 if answer2 == "Whale":
-    score += 1
+    
 
 # Show result
 st.write("---")
 st.write(f"Your total score is: *{score}*")
 
-if score == 2:
+
     st.success("🎉 Congratulations  You got all answers correct!")
     st.balloons()
 else:
