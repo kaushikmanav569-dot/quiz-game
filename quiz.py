@@ -1,8 +1,4 @@
 import streamlit as st
-
-name = st.text_input("Enter your name:")
-st.write("Hello,", name)
-st.balloons()
 Q1: First Alphabet of English language..?
 A) d	B) e
 C) a	D) f
