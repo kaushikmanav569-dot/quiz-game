@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 st.title("🎯 Quiz Game")
@@ -19,4 +18,22 @@ user_answers = []
 for i, q in enumerate(questions):
     st.subheader(q)
     ans = st.radio(f"Select your answer for Question {i+1}:", ['A', 'B', 'C', 'D'], key=i)
-    user…
+    user_answers.append(ans)
+
+# Submit button to check score
+if st.button("Submit Quiz"):
+    score = 0
+    for i in range(5):
+        if user_answers[i] == answers[i]:
+            score += 1
+
+    st.write("### 🧮 Your Total Score:", score, "/ 5")
+
+    if score == 5:
+        st.success("🏆 Congratulations! You are the topper!")
+    elif score == 4:
+        st.info("🥈 Great Job! You got Second Position.")
+    elif score == 3:
+        st.warning("🙂 You passed the quiz!")
+    else:
+        st.error("😢 Better Luck Next Time.")
