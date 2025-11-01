@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
  st.title("Quiz Game:-")
  st.write("Q1: First Alphabet of English language..?\nA) d\tB) e\nC) a\tD) f")
  ans1 = st.text_input("Enter your answer here...",key.i)
