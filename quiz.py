@@ -1,7 +1,7 @@
 import streamlit as st
 Q1: First Alphabet of English language..?
-A) d	B) e
-C) a	D) f
+A) A	B) E
+C) F	D) G
 Enter your choice....c
 <....................................>
 Q2: Which of these is a mammel..?
